@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asiana Airlines</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c12878d3ba.js" crossorigin="anonymous"></script>
+    <script defer src="./script/jquery-3.6.4.js"></script>
+    <script defer src="./script/main.js"></script>
+</head>
+
+<body>
+    <div class="gnbbg"></div>
+    <header>
+        <h1><a href="index.html"><img src="./images/logo.png" alt="아시아나홈페이지로고"></a></h1>
+        <nav>
+            <ul id="gnb">
+                <li>
+                    <a href="reservation.html">예약</a>
+                    <ul class="sub">
+                        <li>
+                            <a href="#">항공권예약</a>
+                            <ul>
+                                <li><a href="#">최저가 간편조회</a></li>
+                                <li><a href="#">신용카드 혜택</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">예약조회</a>
+                            <ul>
+                                <li><a href="#">예약내역</a></li>
+                                <li><a href="#">항공권 구매 내역</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">운항정보</a>
+                            <ul>
+                                <li><a href="#">스케줄 조회</a></li>
+                                <li><a href="#">출도착 조회</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">취항지정보</a>
+                            <ul>
+                                <li><a href="#">운항노선</a></li>
+                                <li><a href="#">캐빈승무원 여행일기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="preparation.html">여행준비</a></li>
+                <li><a href="Travel.html">여행</a></li>
+                <li><a href="Asiana_Club.html">아시아나클럽</a></li>
+            </ul>
+            <ul id="util">
+                <li title="챗봇"><a href="#"><i class="fa-brands fa-rocketchat"></i></a></li>
+                <li title="마이 아시아나"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li class="search_i" title="검색"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="검색어를 입력하세요">
+            <button>검색</button>
+            <a href="#" class="close_search">X</a>
+        </div>
+
+    </header>
+    <main>
+        <section id="slide">
+            <ul class="frame">
+                <li><img src="./images/visual_L.png" alt="아시아나세부이미지"></li>
+                <li><img src="./images/visual.jpg" alt="아시아나뉴욕이미지"></li>
+                <li><img src="./images/visual_R.jpg" alt="아시아나스위스이미지"></li>
+            </ul>
+            <ul class="btns">
+                    <li class="on"></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </section>
+        <div class="tabbg">
+        </div>
+        <div id="tabmenu">
+            <ul id="tab">
+                <li class="on"><a href="#resevation"><i class="fa-solid fa-calendar-check"></i>항공권 예약</a></li>
+                <li><a href="#re_search"><i class="fa-solid fa-magnifying-glass"></i>예약 조회</a></li>
+                <li><a href="#check"><i class="fa-solid fa-ticket"></i>체크 인</a></li>
+                <li><a href="#dep_arr"><i class="fa-regular fa-clock"></i>출도착 조회</a></li>
+            </ul>
+            <article class="menu">
+                <div id="resevation">
+                    <ul class="tab">
+                        <li class="on"><a href="reservation.html">왕복</a></li>
+                        <li><a href="reservation.html">편도</a></li>
+                        <li><a href="reservation.html">다구간></a></li>
+                    </ul>
+                    <input type="text" placeholder="출발지">
+                    <input type="text" placeholder="도착지">
+                    <button>조회</button>
+                </div>
+                <div id="re_search">
+                    <h2>예약하신 항공권의 여정을 편리하게 확인하실 수 있습니다.</h2>
+                    <article class="btn">
+                        <input type="text" placeholder="예약번호">
+                        <button>예약 조회</button>
+                    </article>
+                    <span>* 예약번호는 8자리 숫자 또는 6자리 영문/숫자를 입력하세요.</span>
+                </div>
+                <div id="check">
+                    <h2>원하시는 좌석의 탑승권을 미리 발급받고 공항에서 대기시간을 줄이세요.</h2>
+                    <article class="btn">
+                        <input type="text" placeholder="예약번호">
+                        <button>체크인</button>
+                    </article>
+                </div>
+                <div id="dep_arr">
+                    <h2>취항지 출도착 스케줄을 상세하게 확인하실 수 있습니다.</h2>
+                    <article class="btn">
+                        <input type="text" placeholder="예약번호">
+                        <button>출도착 조회</button>
+                    </article>
+                </div>
+            </article>
+            <button class="close">X</button>
+        </div>
+    </main>
+    <div id="banner">
+        <a href="reservation.html"><img src="./images/banner_03.jpg" alt="아시아나최저가배너이미지"></a>
+    </div>
+    <section id="slide_menu">
+        <div class="inner">
+            <ul class="list">
+                <li class="on"><img src="./images/gal1.jpg" alt="아시아나최저가사이판"></li>
+                <li><img src="./images/gal2.jpg" alt="아시아나최저가파리"></li>
+                <li><img src="./images/gal3.jpg" alt="아시아나최저가이탈리아"></li>
+                <li><img src="./images/gal4.jpg" alt="아시아나최저가아이슬란드"></li>
+            </ul>
+        </div>
+    </section>
+    <section id="notice">
+        <div class="titleBox">
+            <h2><a href="#">공지사항</a></h2>
+            <a href="#;">전체보기</a>
+        </div>
+        <div class="content">
+            <div class="txt">
+                <ul>
+                    <li><a href="#">증편/재운항 노선 안내</a></li>
+                    <li><a href="#">마일리지 소멸 예정 기간안내</a></li>
+                    <li><a href="#">비즈니스 클래스 특가 안내</a></li>
+                </ul>
+            </div>
+            <div class="pic">
+                <img src="./images/notice.jpg" alt="아시아나항공편안내공지이미지">
+            </div>
+        </div>
+    </section>
+    <section id="event">
+        <div class="titleBox">
+            <h2><a href="#">이벤트</a></h2>
+            <a href="#;">전체보기</a>
+        </div>
+        <div class="eventbox">
+            <ul>
+                <li><img src="./images/event1.jpg" alt="아시아나항공하와이이벤트이미지"><a href="#">아시아나 라이크</a><span>2023.05.01 ~
+                        2023.07.31
+                    </span></li>
+                <li><img src="./images/event2.jpg" alt="아시아나항공메리미이벤트이미지"><a href="#">특별한 순간을 선물합니다</a><span>2023.07.01 ~
+                        2023.12.31</span></li>
+                <li><img src="./images/event3.PNG" alt="아시아나항공그린트레블이벤트이미지"><a href="#">아시아나와 함께 떠나는 Green
+                        travel</a><span>2023.07.01 ~ 2023.08.31</span></li>
+            </ul>
+        </div>
+    </section>
+    <section id="affiliate">
+        <div class="inner">
+            <div class="titleBox">
+                <h2><a href="#">제휴 서비스</a></h2>
+                <a href="#;">전체보기</a>
+            </div>
+            <div class="menuBox">
+                <article>
+                    <a href="#">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <h2>마일리지적립</h2>
+                        <span>제휴 신용카드 <br> 마일리지 적립</span>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <i class="fa-solid fa-hotel"></i>
+                        <h2>호텔</h2>
+                        <span>숙박예약 <br> AGODA</span>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <i class="fa-solid fa-car"></i>
+                        <h2>렌터카</h2>
+                        <span>전세계 렌터카 <br> Rentalcars.com</span>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h2>여행자보험</h2>
+                        <span>메리츠 <br>여행자보험</span>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <i class="fa-solid fa-coins"></i>
+                        <h2>투어&액티비티</h2>
+                        <span>마이리얼트립 <br>최대 1만원 할인</span>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_con1">
+            <ul>
+                <li>
+                    <a href="#">회사소개</a>
+                    <ul>
+                        <li><a href="#">아시아나항공 소개</a></li>
+                        <li><a href="#">ESG 경영</a></li>
+                        <li><a href="#">홍보채널</a></li>
+                        <li><a href="#">제휴항공사</a></li>
+                        <li><a href="#">사회공헌</a></li>
+                        <li><a href="#">IR</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">약관 및 규정</a>
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">운송 약관 및 고지사항</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">아시아나클럽 규정 <br><br><br></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">기타안내</a>
+                    <ul>
+                        <li><a href="#">항공교통이용자 서비스계획</a></li>
+                        <li><a href="#">항공교통이용자 피해 구제</a></li>
+                        <li><a href="#">소비자 안전정보 안내</a></li>
+                        <li><a href="#">유료 부가서비스</a></li>
+                        <li><a href="#">사이트 맵</a></li>
+                        <li><a href="#">광고 안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="#"><img src="./images/youtube.png" alt="아시아나유튜브바로가기아이콘"></a></li>
+                        <li><a href="#"><img src="./images/instargram.png" alt="아시아나인스타그램바로가기아이콘"></a></li>
+                        <li><a href="#"><img src="./images/facebook.png" alt="아시아나페이스북바로가기아이콘"></a></li>
+                        <li><a href="#"><img src="./images/twitter.png" alt="아시아나트위터바로가기아이콘"></a></li>
+                        <li><a href="#"><img src="./images/kakaostory.png" alt="아시아나카카오스토리바로가기아이콘"></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><img src="./images/googleplaystore.jpg" alt="아시아나구글플레이QR코드"></a></li>
+                        <li><a href="#"><img src="./images/appleappstore.jpg" alt="아시아나애플앱스토어QR코드"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_con2">
+            <ul>
+                <li><a href="#"><img src="./images/staralliancelogo.png" alt="스타얼라이언스멤버쉽인증로고"></a></li>
+                <li>
+                    <a href="#"><img src="./images/skytrax_logo.jpg"
+                            alt="스카이트렉스선정 서비스품질 16년연속5스타, 코로나19안전 등급 5스타 항공사"></a>
+                    <p>스카이트렉스 선정 <br> 서비스품질 17년 연속 5스타 항공사</p>
+                </li>
+                <li>
+                    <p>당사는 메세나활동을 통해 <br> 사회공헌을 실천하는 메세나기업입니다</p>
+                </li>
+                <li><a href="#"><img src="./images/visitkorea_logo.jpg" alt="한국방문의 해 로고"></a></li>
+            </ul>
+        </div>
+        <div class="footer_con3">
+            <p>아시아나항공(주) 대표이사 원유석 | 사업자등록번호 104-81-17480 | 통신판매업 신고 제 16-2822</p>
+            <address>서울특별시 강서구 오정로 443-83예약 1588-8000 / 02-2669-8000아시아나클럽 1588-8180 / 02-2669-8180</address>
+            <p>개인정보보호책임자 온라인마케팅 상무 이승환서버 위치 : 아시아나IDT㈜ 전산센터 <br>
+                © ASIANA AIRLINES. All rights reserved.
+            </p>
+            <a href="#">지점연락처</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

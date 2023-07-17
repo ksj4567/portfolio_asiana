@@ -1,0 +1,71 @@
+main{
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+
+    h2{
+        margin-top: 70px;
+        text-align: center;
+        font: bold 30px/1 '맑은 고딕';
+        color: #333;
+    }
+    >h3{
+        margin: 50px 0px;
+        font: bold 20px/50px '맑은 고딕';
+        color: #eee;
+        width: 100%;
+        height: 50px;
+        background-color: #555;
+        text-align: center;
+    }
+
+    .txt{
+        width: 900px;
+        height: 500px;
+        margin: 0 auto;
+        // border: 1px solid #000;
+        // border-left: none;
+        // border-right: none;
+       
+        h4{
+            font: bold 18px/1 '맑은 고딕';
+            margin: 15px 0px;
+        }
+        ul{
+            width: 900px;
+            height: 400px;
+            margin-top: 30px;
+            border: 2px solid #000;
+            border-left: none;
+            border-right: none;
+           
+            li{
+                margin: 0 auto;
+                padding-left: 100px;
+                width: 900px;
+                height: 98px;
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid #777;
+                &:nth-of-type(4){
+                    border-bottom: none;
+                }
+                span{
+                    width: 30px;
+                    height: 30px;
+                    background-color: #777;
+                    border-radius: 50%;
+                    font: bold 18px/28px '맑은 고딕';
+                    color: #eee;
+                    text-align: center;
+                }
+                p{
+                    padding-left: 70px;
+                    font: bold 17px/50px '맑은고딕';
+                }
+            }
+        }
+    }
+
+
+}

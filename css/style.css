@@ -1,0 +1,1456 @@
+@charset "UTF-8";
+header {
+  width: 1200px;
+  height: 200px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 280px;
+  height: 120px;
+}
+header h1 a {
+  display: block;
+}
+header h1 a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header nav {
+  text-align: center;
+}
+header nav #gnb {
+  position: absolute;
+  bottom: 40px;
+  left: 350px;
+  display: flex;
+}
+header nav #gnb li a {
+  display: block;
+  width: 140px;
+  height: 50px;
+  background-color: #fff;
+  font: bold 22px/50px "맑은 고딕";
+  color: #333;
+}
+header nav #util {
+  display: flex;
+  font-size: 23px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+header nav #util li {
+  margin-left: 25px;
+}
+header nav #util li i {
+  color: #333;
+}
+
+footer {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_con1 {
+  width: 100%;
+  height: 230px;
+  text-align: center;
+  padding: 0px 180px;
+}
+footer .footer_con1 ul {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+footer .footer_con1 ul li::after {
+  width: 1px;
+  height: 100px;
+  background-color: #000;
+}
+footer .footer_con1 ul li a {
+  font: bold 18px/30px "맑은 고딕";
+}
+footer .footer_con1 ul li ul {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_con1 ul li ul li a {
+  font: 15px/20px "맑은 고딕";
+}
+footer .footer_con1 ul li:nth-of-type(4) ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(1) li {
+  margin-left: 5px;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(1) li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(1) li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(2) {
+  padding: 0px 20px;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(2) li a {
+  display: block;
+  width: 50px;
+  height: 80px;
+  border-radius: 5px;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(2) li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+footer .footer_con2 {
+  width: 100%;
+  height: 90px;
+  border-top: 2px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 5px;
+}
+footer .footer_con2 ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+footer .footer_con2 ul li {
+  margin-top: 10px;
+  width: 200px;
+  height: 60px;
+}
+footer .footer_con2 ul li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer .footer_con2 ul li p {
+  margin-top: 8px;
+  font: 15px/1.2 "맑은 고딕";
+}
+footer .footer_con2 ul li:nth-child(2) {
+  width: 350px;
+  display: flex;
+}
+footer .footer_con2 ul li:nth-child(3) {
+  width: 300px;
+}
+footer .footer_con3 {
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding-top: 15px;
+}
+footer .footer_con3 p {
+  font: 15px/20px "맑은 고딕";
+}
+footer .footer_con3 address {
+  font: 15px/1 "맑은 고딕";
+  margin: 10px 0px;
+}
+footer .footer_con3 a {
+  display: block;
+  width: 80px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+  font: bold 12px/25px "맑은 고딕";
+  position: absolute;
+  top: 95px;
+  right: 725px;
+}
+
+main {
+  width: 1200px;
+  height: 750px;
+  margin: 0 auto;
+}
+main h2 {
+  margin-top: 70px;
+  text-align: center;
+  font: bold 30px/1 "맑은 고딕";
+  color: #333;
+}
+main h3 {
+  margin: 20px 0px;
+  font: bold 20px/1 "맑은 고딕";
+  color: #333;
+}
+main .pic {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+main .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .pic span {
+  margin-top: 20px;
+  font: bold 18px/1 "맑은 고딕";
+  color: #333;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  text-align: center;
+}
+main .info {
+  width: 100%;
+  height: 350px;
+}
+main .info h3 {
+  margin: 30px 0px;
+  font: bold 20px/1 "맑은 고딕";
+  color: #333;
+}
+main .info ul {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+main .info ul li {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-bottom: 15px;
+}
+main .info ul li span {
+  font: bold 18px/1 "맑은고딕";
+  color: #333;
+  margin-right: 100px;
+}
+main .info ul li p {
+  font: 15px/1 "맑은고딕";
+  color: #333;
+}
+main .info ul li:nth-of-type(3) span {
+  margin-right: 82px;
+}
+
+.menu {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.menu h2 {
+  margin-top: 70px;
+  text-align: center;
+  font: bold 30px/1 "맑은 고딕";
+  color: #333;
+}
+.menu .tab {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+}
+.menu .tab li {
+  width: 150px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.menu .tab li a {
+  font: bold 18px/40px "맑은 고딕";
+  color: #fff;
+}
+.menu .tab li.on {
+  background-color: #c40b40;
+}
+.menu .seachbox {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.menu .seachbox input[type=text] {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 15px;
+  padding: 10px;
+  font: 18px/1 "맑은고딕";
+}
+.menu .seachbox #seat {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px 20px 0px;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-align: center;
+  font: 15px/1 "맑은고딕";
+}
+.menu .seachbox button {
+  width: 150px;
+  height: 50px;
+  background-color: #c40b40;
+  color: #fff;
+  font: bold 18px/50px "맑은 고딕";
+  border: none;
+  border-radius: 5px;
+}
+.menu .travel {
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+}
+.menu .travel .txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .travel .txt h3 {
+  font: bold 22px/1 "맑은 고딕";
+  color: #333;
+}
+.menu .travel .txt span {
+  font: 15px/1 "맑은 고딕";
+  color: #333;
+}
+.menu .travel .txt p {
+  font: 15px/1 "맑은 고딕";
+  color: #333;
+}
+.menu .travel > p {
+  margin: 30px 0px;
+  padding-left: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  font: bold 20px/50px "맑은 고딕";
+}
+.menu .travel .list {
+  display: flex;
+}
+.menu .travel .list > a {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.menu .travel .list > a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.menu .travel .list .price {
+  margin: 50px 30px;
+  width: 700px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.menu .travel .list .price li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .travel .list .price li:nth-of-type(2) {
+  margin-left: 48px;
+}
+.menu .travel .list .price li a {
+  font: bold 18px/1 "맑은고딕";
+  color: #333;
+}
+.menu .travel .list .price li span {
+  font: bold 18px/1 "맑은고딕";
+  color: #333;
+}
+.menu .travel .list .price li p {
+  font: bold 18px/1 "맑은고딕";
+  color: #333;
+}
+
+main {
+  width: 1200px;
+  height: 650px;
+  margin: 0 auto;
+}
+main h2 {
+  margin-top: 70px;
+  text-align: center;
+  font: bold 30px/1 "맑은 고딕";
+  color: #333;
+}
+main #tabBox {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+}
+main #tabBox ul {
+  width: 100%;
+  display: flex;
+}
+main #tabBox ul li {
+  flex: 1;
+  height: 50px;
+}
+main #tabBox ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font: bold 15px/1 "arial";
+  color: #333;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #tabBox ul li.on a {
+  background-color: #c40b40;
+  color: #eee;
+}
+main #tabBox article {
+  margin-top: 20px;
+}
+main #tabBox article div {
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+main #tabBox article div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main #tabBox article div a {
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 70%;
+}
+main #tabBox article div a span {
+  z-index: 1;
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  font: bold 13px/1.2 "맑은 고딕";
+  color: #fff;
+}
+main #tabBox article div a p {
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font: bold 12px/1.2 "맑은 고딕";
+  color: #fff;
+}
+main #tabBox article div.on {
+  z-index: 2;
+  opacity: 1;
+}
+
+main {
+  width: 1200px;
+  height: 750px;
+  margin: 0 auto;
+}
+main h2 {
+  margin-top: 70px;
+  text-align: center;
+  font: bold 30px/1 "맑은 고딕";
+  color: #333;
+}
+main > h3 {
+  margin: 50px 0px;
+  font: bold 20px/50px "맑은 고딕";
+  color: #eee;
+  width: 100%;
+  height: 50px;
+  background-color: #555;
+  text-align: center;
+}
+main .txt {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+}
+main .txt h4 {
+  font: bold 18px/1 "맑은 고딕";
+  margin: 15px 0px;
+}
+main .txt ul {
+  width: 900px;
+  height: 400px;
+  margin-top: 30px;
+  border: 2px solid #000;
+  border-left: none;
+  border-right: none;
+}
+main .txt ul li {
+  margin: 0 auto;
+  padding-left: 100px;
+  width: 900px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #777;
+}
+main .txt ul li:nth-of-type(4) {
+  border-bottom: none;
+}
+main .txt ul li span {
+  width: 30px;
+  height: 30px;
+  background-color: #777;
+  border-radius: 50%;
+  font: bold 18px/28px "맑은 고딕";
+  color: #eee;
+  text-align: center;
+}
+main .txt ul li p {
+  padding-left: 70px;
+  font: bold 17px/50px "맑은고딕";
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.gnbbg {
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+  z-index: 8;
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  border-top: 1px solid #000;
+  display: none;
+}
+
+header {
+  width: 1200px;
+  height: 200px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 280px;
+  height: 120px;
+}
+header h1 a {
+  display: block;
+}
+header h1 a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header nav {
+  text-align: center;
+}
+header nav #gnb {
+  position: absolute;
+  bottom: 40px;
+  left: 350px;
+  display: flex;
+}
+header nav #gnb li a {
+  display: block;
+  width: 140px;
+  height: 50px;
+  background-color: #fff;
+  font: bold 22px/50px "맑은 고딕";
+  color: #333;
+  position: relative;
+}
+header nav #gnb li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 5;
+  transform: translateX(-50%) scaleX(0%);
+  left: 50%;
+  bottom: -20px;
+  width: 80%;
+  border-bottom: 5px solid red;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+header nav #gnb li a:hover::before {
+  transform: translateX(-50%) scaleX(100%);
+}
+header nav #gnb li .sub {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: -300px;
+  z-index: 9;
+}
+header nav #gnb li .sub li a {
+  display: block;
+  width: 270px;
+  height: 30px;
+  font: bold 17px/30px "맑은 고딕";
+}
+header nav #gnb li .sub li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 5;
+  transform: translateX(-50%) scaleX(0%);
+  left: 50%;
+  bottom: 0px;
+  width: 50%;
+  border-bottom: 4px solid red;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+header nav #gnb li .sub li a:hover::before {
+  transform: translateX(-50%) scaleX(100%);
+}
+header nav #gnb li .sub li ul {
+  margin-top: 20px;
+}
+header nav #gnb li .sub li ul li a {
+  display: block;
+  width: 270px;
+  height: 30px;
+  font: 15px/30px "맑은 고딕";
+  position: relative;
+}
+header nav #gnb li .sub li ul li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 5;
+  transform: translateX(-50%) scaleX(0%);
+  left: 50%;
+  bottom: 0px;
+  width: 50%;
+  border-bottom: 3px solid red;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+header nav #gnb li .sub li ul li a:hover::before {
+  transform: translateX(-50%) scaleX(100%);
+}
+header nav #util {
+  display: flex;
+  font-size: 23px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+header nav #util li {
+  margin-left: 25px;
+}
+header nav #util li:hover i {
+  color: red;
+}
+header nav #util li i {
+  color: #333;
+}
+header .search {
+  display: none;
+  width: 500px;
+  height: 60px;
+  position: absolute;
+  top: 181px;
+  right: 50px;
+  background-color: #fff;
+  border: 1px solid #777;
+  border-radius: 10px;
+  z-index: 10;
+}
+header .search input[type=text] {
+  width: 70%;
+  height: 40px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  background: #eee;
+  padding-left: 15px;
+  font: 15px/40px "맑은고딕";
+  color: #777;
+  margin: 10px;
+}
+header .search button {
+  width: 15%;
+  height: 40px;
+  background-color: #999;
+  color: #333;
+  border-radius: 10px;
+  border: none;
+  font: bold 17px/40px "맑은고딕";
+}
+header .search button:hover {
+  background-color: #333;
+  color: #fff;
+}
+header .search a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #c40b40;
+  color: #fff;
+  font: bold 15px/25px "arial";
+  text-align: center;
+  border-radius: 50%;
+  z-index: 10;
+}
+header .search a:hover {
+  background-color: #fff;
+  color: #c40b40;
+  border: 2px solid #c40b40;
+  line-height: 22px;
+}
+
+#slide {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+}
+#slide .frame {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: 0.5s;
+}
+#slide .frame li {
+  width: 33.3333333333%;
+  height: 100%;
+  border-radius: 30px;
+  margin-left: 0.5px;
+}
+#slide .frame li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+#slide .btns {
+  position: absolute;
+  right: 3vw;
+  top: 3vh;
+  display: flex;
+  gap: 10px;
+  z-index: 5;
+}
+#slide .btns li {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#slide .btns li.on {
+  width: 50px;
+  height: 10px;
+  background-color: #c40b40;
+  border-radius: 10px;
+}
+
+.tabbg {
+  width: 100%;
+  height: 100vh;
+  background-color: #777;
+  opacity: 50%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+  display: none;
+}
+
+#tabmenu {
+  width: 1000px;
+  height: 350px;
+  position: absolute;
+  left: 500px;
+  margin: 0 auto;
+}
+#tabmenu.on {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-40%, -50%);
+  z-index: 11;
+}
+#tabmenu #tab {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  display: flex;
+}
+#tabmenu #tab li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+}
+#tabmenu #tab li.on > a {
+  color: red;
+}
+#tabmenu #tab li a {
+  display: block;
+  font: bold 17px/50px "맑은고딕";
+  color: #333;
+}
+#tabmenu #tab li a i {
+  margin-right: 10px;
+}
+#tabmenu #tab li:nth-of-type(1) {
+  background-color: #fff;
+}
+#tabmenu #tab li:nth-of-type(2) {
+  background-color: #c40b40;
+}
+#tabmenu #tab li:nth-of-type(3) {
+  background-color: #2e2e7c;
+}
+#tabmenu #tab li:nth-of-type(4) {
+  background-color: #fec23c;
+}
+#tabmenu div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 900px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 0px 10px 10px 10px;
+  opacity: 0;
+}
+#tabmenu div#resevation {
+  padding-left: 100px;
+}
+#tabmenu div#resevation .tab li {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+}
+#tabmenu div#resevation .tab li.on {
+  background-color: #c40b40;
+}
+#tabmenu div#resevation .tab li.on a {
+  color: #fff;
+}
+#tabmenu div#resevation .tab li a {
+  font: bold 15px/40px "맑은 고딕";
+  color: #000;
+  text-align: center;
+}
+#tabmenu div#resevation input[type=text] {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background: #eee;
+  padding-left: 20px;
+  font: 15px/40px "맑은고딕";
+  color: #777;
+  margin: 30px 0px;
+}
+#tabmenu div#resevation button {
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #c40b40;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font: bold 17px/40px "맑은고딕";
+}
+#tabmenu div#resevation button:hover {
+  background-color: #333;
+}
+#tabmenu div#re_search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tabmenu div#re_search h2 {
+  font: bold 20px/1 "맑은 고딕";
+  color: #333;
+}
+#tabmenu div#re_search .btn input[type=text] {
+  width: 400px;
+  height: 30px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background: #eee;
+  padding-left: 20px;
+  font: 15px/40px "맑은고딕";
+  color: #777;
+  margin: 20px 0px 0px;
+}
+#tabmenu div#re_search .btn button {
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #c40b40;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font: bold 17px/40px "맑은고딕";
+}
+#tabmenu div#re_search .btn button:hover {
+  background-color: #333;
+}
+#tabmenu div#re_search span {
+  font: 15px/30px "맑은 고딕";
+}
+#tabmenu div#check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tabmenu div#check h2 {
+  font: bold 20px/1 "맑은 고딕";
+  color: #333;
+}
+#tabmenu div#check .btn input[type=text] {
+  width: 400px;
+  height: 30px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background: #eee;
+  padding-left: 20px;
+  font: 15px/40px "맑은고딕";
+  color: #777;
+  margin: 20px 0px 0px;
+}
+#tabmenu div#check .btn button {
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #c40b40;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font: bold 17px/40px "맑은고딕";
+}
+#tabmenu div#check .btn button:hover {
+  background-color: #333;
+}
+#tabmenu div#dep_arr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#tabmenu div#dep_arr h2 {
+  font: bold 20px/1 "맑은 고딕";
+  color: #333;
+}
+#tabmenu div#dep_arr .btn input[type=text] {
+  width: 400px;
+  height: 30px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background: #eee;
+  padding-left: 20px;
+  font: 15px/40px "맑은고딕";
+  color: #777;
+  margin: 20px 0px 0px;
+}
+#tabmenu div#dep_arr .btn button {
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #c40b40;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font: bold 17px/40px "맑은고딕";
+}
+#tabmenu div#dep_arr .btn button:hover {
+  background-color: #333;
+}
+#tabmenu div.on {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 900px;
+  height: 200px;
+  background-color: #eee;
+  border-radius: 0px 10px 10px 10px;
+  opacity: 1;
+  z-index: 2;
+}
+#tabmenu .close {
+  cursor: pointer;
+  display: block;
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  font: bold 18px/1.6 "맑은 고딕";
+  border-radius: 50%;
+  color: #333;
+  text-align: center;
+  position: absolute;
+  top: -50px;
+  right: 10%;
+  transform: translateX(-50%);
+  opacity: 1;
+  z-index: 11;
+  display: none;
+}
+#tabmenu .close:hover {
+  background-color: red;
+  color: #fff;
+}
+
+#banner {
+  width: 100%;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 70px;
+  cursor: pointer;
+}
+#banner a {
+  width: 100%;
+  height: 120px;
+}
+#banner a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#slide_menu .inner {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+#slide_menu .inner .list {
+  display: flex;
+  margin-top: 40px;
+}
+#slide_menu .inner .list li {
+  width: 120px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 15px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+#slide_menu .inner .list li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#slide_menu .inner .list li.on {
+  width: 750px;
+  height: 500px;
+  opacity: 1;
+}
+#slide_menu .inner .list li.on img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#notice {
+  width: 1200px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+  padding: 20px;
+}
+#notice .titleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#notice .titleBox h2 a {
+  font: bold 22px/1 "맑은고딕";
+}
+#notice .titleBox > a {
+  display: block;
+  width: 70px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  font: bold 15px/38px "맑은 고딕";
+}
+#notice .titleBox > a:hover {
+  border: 2px solid #c40b40;
+}
+#notice .content {
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#notice .content .txt {
+  width: 35%;
+  height: 200px;
+  padding: 20px 0px;
+}
+#notice .content .txt ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#notice .content .txt ul li {
+  border-bottom: 1px solid #333;
+  margin-bottom: 15px;
+}
+#notice .content .txt ul li a {
+  font: bold 15px/35px "맑은고딕";
+  margin-left: 15px;
+}
+#notice .content .pic {
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+#notice .content .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#event {
+  width: 1200px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  position: relative;
+}
+#event .titleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#event .titleBox h2 a {
+  font: bold 22px/1 "맑은고딕";
+}
+#event .titleBox > a {
+  display: block;
+  width: 70px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  font: bold 15px/38px "맑은 고딕";
+}
+#event .titleBox > a:hover {
+  border: 2px solid #c40b40;
+}
+#event .eventbox {
+  padding-top: 20px;
+}
+#event .eventbox ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#event .eventbox ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 280px;
+  border-radius: 10px;
+}
+#event .eventbox ul li:hover img {
+  transform: scale(105%);
+}
+#event .eventbox ul li img {
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#event .eventbox ul li a {
+  display: block;
+  font: bold 16px/20px "맑은 고딕";
+  color: #000;
+  margin-top: 10px;
+}
+#event .eventbox ul li span {
+  font: 15px/1.2 "맑은 고딕";
+  color: #000;
+  margin-top: 5px;
+}
+
+#affiliate {
+  width: 100%;
+  height: 400px;
+  background-color: antiquewhite;
+}
+#affiliate .inner {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  position: relative;
+}
+#affiliate .inner .titleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#affiliate .inner .titleBox h2 a {
+  font: bold 22px/1 "맑은고딕";
+}
+#affiliate .inner .titleBox > a {
+  display: block;
+  width: 70px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  font: bold 15px/38px "맑은 고딕";
+}
+#affiliate .inner .titleBox > a:hover {
+  border: 2px solid #c40b40;
+}
+#affiliate .inner .menuBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+#affiliate .inner .menuBox article {
+  width: 150px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: center;
+}
+#affiliate .inner .menuBox article a {
+  margin-top: 20px;
+}
+#affiliate .inner .menuBox article a i {
+  font-size: 50px;
+  margin: 12px;
+}
+#affiliate .inner .menuBox article a h2 {
+  font: bold 18px/35px "맑은 고딕";
+}
+#affiliate .inner .menuBox article a span {
+  font: 15px/20px "맑은 고딕";
+}
+
+footer {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_con1 {
+  width: 100%;
+  height: 230px;
+  text-align: center;
+  padding: 0px 180px;
+}
+footer .footer_con1 ul {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+footer .footer_con1 ul li::after {
+  width: 1px;
+  height: 100px;
+  background-color: #000;
+}
+footer .footer_con1 ul li a {
+  font: bold 18px/30px "맑은 고딕";
+}
+footer .footer_con1 ul li ul {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_con1 ul li ul li a {
+  font: 15px/20px "맑은 고딕";
+}
+footer .footer_con1 ul li:nth-of-type(4) ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(1) li {
+  margin-left: 5px;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(1) li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(1) li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(2) {
+  padding: 0px 20px;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(2) li a {
+  display: block;
+  width: 50px;
+  height: 80px;
+  border-radius: 5px;
+}
+footer .footer_con1 ul li:nth-of-type(4) ul:nth-child(2) li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+footer .footer_con2 {
+  width: 100%;
+  height: 90px;
+  border-top: 2px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 5px;
+}
+footer .footer_con2 ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+footer .footer_con2 ul li {
+  margin-top: 10px;
+  width: 200px;
+  height: 60px;
+}
+footer .footer_con2 ul li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer .footer_con2 ul li p {
+  margin-top: 8px;
+  font: 15px/1.2 "맑은 고딕";
+}
+footer .footer_con2 ul li:nth-child(2) {
+  width: 350px;
+  display: flex;
+}
+footer .footer_con2 ul li:nth-child(3) {
+  width: 300px;
+}
+footer .footer_con3 {
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding-top: 15px;
+}
+footer .footer_con3 p {
+  font: 15px/20px "맑은 고딕";
+}
+footer .footer_con3 address {
+  font: 15px/1 "맑은 고딕";
+  margin: 10px 0px;
+}
+footer .footer_con3 a {
+  display: block;
+  width: 80px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+  font: bold 12px/25px "맑은 고딕";
+  position: absolute;
+  top: 95px;
+  right: 725px;
+}
+
+/*# sourceMappingURL=style.css.map */
